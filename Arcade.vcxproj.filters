@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{399e5407-d2f3-4b85-b498-58ad3c9a9e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{c7a3ef7c-88b9-42e8-99f7-6b506bf05533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checkers">
+      <UniqueIdentifier>{d601e32c-162a-4764-a8f3-1e5800804326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chess">
+      <UniqueIdentifier>{16bb18b5-6be6-4ed7-9634-a62dd11831c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Amazons">
+      <UniqueIdentifier>{02a1f8ea-f98d-45ff-89a0-266b64cc140e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Amazons">
+      <UniqueIdentifier>{1462ad28-c44e-44ea-8f8a-44bdafe22068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checkers">
+      <UniqueIdentifier>{79671235-7a82-4afd-85ed-bdff8840f7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chess">
+      <UniqueIdentifier>{470ef9c2-d6a7-479c-b8e1-39dc16cbd16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Chess\ChessStones">
+      <UniqueIdentifier>{d3640cba-e291-4bf1-b8c1-ef9391f26c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chess\ChessStones">
+      <UniqueIdentifier>{2b51b6de-488c-49e1-ab49-bc61f3d249de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arcade.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon.h">
+      <Filter>Header Files\Amazons</Filter>
+    </ClInclude>
+    <ClInclude Include="AmazonsCell.h">
+      <Filter>Header Files\Amazons</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckersCell.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckersStone.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="AmazonBoard.h">
+      <Filter>Header Files\Amazons</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckersBoard.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="AmazonGame.h">
+      <Filter>Header Files\Amazons</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckersGame.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="AmazonPlayer.h">
+      <Filter>Header Files\Amazons</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckersPlayer.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessStone.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Header Files\Chess\ChessStones</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessCell.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessGame.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPlayer.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arcade.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon.cpp">
+      <Filter>Source Files\Amazons</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="AmazonsCell.cpp">
+      <Filter>Source Files\Amazons</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckersCell.cpp">
+      <Filter>Source Files\Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckersStone.cpp">
+      <Filter>Source Files\Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="AmazonBoard.cpp">
+      <Filter>Source Files\Amazons</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckersBoard.cpp">
+      <Filter>Source Files\Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="AmazonGame.cpp">
+      <Filter>Source Files\Amazons</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckersGame.cpp">
+      <Filter>Source Files\Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="AmazonPlayer.cpp">
+      <Filter>Source Files\Amazons</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckersPlayer.cpp">
+      <Filter>Source Files\Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessStone.cpp">
+      <Filter>Source Files\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Source Files\Chess\ChessStones</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Source Files\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessCell.cpp">
+      <Filter>Source Files\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGame.cpp">
+      <Filter>Source Files\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPlayer.cpp">
+      <Filter>Source Files\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
