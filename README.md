@@ -4,7 +4,7 @@
 
 Board game arcade with the ability to run Chess, Checkers, and Amazons game.
 The software was written as part of an object-oriented development course in C++ at the Academic College of Tel Aviv Yaffo.
-Authored by Alon Shakaroff & Ravid Yael.
+##### Authored by Alon Shakaroff & Ravid Yael.
 
 ## Description
 
